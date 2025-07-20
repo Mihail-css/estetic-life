@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+:root {
+	
+	--container-width: 1200px;
+	--container-padding: 15px;
+
+	--font-main:"Montserrat", sans-serif;
+	--font-accent: "Roboto", sans-serif;
+	--font-titles: var(--font-accent);
+
+	--page-bg: #fff;
+	--text-color: #000;
+	--accent: #ac182c;
+	--link-color: #2578c8;
+
+
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}
+//bg-image под ретину
+  // background-image: image-set(
+  //   url('./../img/project-02.jpg') 1x,
+  //   url('./../img/project-02@2x.jpg') 2x);
+//   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+// 	.hero {
+// 	  background-image: url("./../img/hero/hero@2x.jpg");
+// 	}
+//   }
