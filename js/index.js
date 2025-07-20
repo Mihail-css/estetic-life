@@ -13,15 +13,15 @@ navBtn.onclick = function () {
 };
 
 
-
 const navLinks = document.querySelectorAll(".mobile-nav a");
-console.log(navLinks);
+// console.log(navLinks);
 
 //обходим ссылки методом форич и убираем классы
 nav.addEventListener("click", function () {
 	//console.log ("click");
 	navBtn.classList.remove("nav-icon--active");//Убираем активный класс у иконки моб навигации
 	nav.classList.remove("mobile-nav--open");//Убираем активный класс у блока моб навигации
+	menuIcon.classList.remove('nav-icon--active');// делаем обратно в линии значек
 })
 
 
