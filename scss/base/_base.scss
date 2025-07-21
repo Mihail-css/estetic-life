@@ -34,3 +34,7 @@ pre.code {
 	padding: 1rem;
 	border-radius: 4px;
 }
+
+p+p {
+	margin-top: 8px;
+}

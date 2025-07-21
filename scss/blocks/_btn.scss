@@ -1,0 +1,16 @@
+.btn {
+    transition: all 0.2s ease-in;
+    color: white;
+    height: 40px;
+    padding: 8px 20px;
+    // border: 1px solid var(--text-color);
+    border-radius: 8px;
+    line-height: 1.5;
+    background-color: rgb(24, 24, 207);
+
+    &:hover {
+      background-color:rgba(24, 24, 207, 0.726) ;
+        color: rgb(243, 230, 230);
+    
+    }
+}

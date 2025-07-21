@@ -96,7 +96,7 @@ legend {
   --font-titles: var(--font-accent);
   --page-bg: #fff;
   --text-color: #000;
-  --accent: #ac182c;
+  --accent: #f5f5f5;
   --link-color: #2578c8;
   --laptop-size: 1199px;
   --tablet-size: 959px;
@@ -142,6 +142,10 @@ pre.code {
   background-color: #e9f1f6;
   padding: 1rem;
   border-radius: 4px;
+}
+
+p + p {
+  margin-top: 8px;
 }
 
 /* Контейнеры */
@@ -567,18 +571,18 @@ html, body {
 }
 
 .title-4 {
-  margin: 1em 0 0.5em;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: var(--font-titles);
+  margin-bottom: 15px;
 }
 
 .desc {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .desc--big {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 20px;
 }
 
@@ -645,8 +649,8 @@ html, body {
   margin-bottom: 20px;
 }
 
-.serices__item {
-  margin-bottom: 10px;
+.services__items li {
+  margin-bottom: 8px;
 }
 
 .swiper {
@@ -697,8 +701,36 @@ html, body {
   max-width: 700px;
 }
 
-.desc {
-  margin-bottom: 10px;
+.rule-wrapper {
+  padding-top: 15px;
+}
+
+.rule {
+  line-height: 1.5;
+  padding: 20px 0;
+}
+
+.rule__title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.rule__link {
+  margin-top: 15px;
+}
+
+.btn {
+  transition: all 0.2s ease-in;
+  color: white;
+  height: 40px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  line-height: 1.5;
+  background-color: rgb(24, 24, 207);
+}
+.btn:hover {
+  background-color: rgba(24, 24, 207, 0.726);
+  color: rgb(243, 230, 230);
 }
 
 .footer__item {
