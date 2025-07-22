@@ -3,6 +3,12 @@
 	font-size: 32px;
 	font-weight: 500;
 	font-family: var(--font-accent);
+
+	/* Mobile */
+	@media (max-width: 899px) {
+		font-size: 24px;
+	}
+
 }
 
 .title-3 {
@@ -10,18 +16,30 @@
 	font-weight: 500;
 	font-family: var(--font-accent);
 	margin-bottom: 15px;
+
+	/* Mobile */
+	@media (max-width: 899px) {
+		font-size: 16px;
+	}
 }
 
 .title-4 {
-	
+
 	font-size: 18px;
 	font-weight: 500;
 	font-family: var(--font-titles);
 	margin-bottom: 15px;
+
+	/* Mobile */
+	@media (max-width: 899px) {
+	  font-size: 16px;
+	}
 }
+
 .desc {
 	margin-bottom: 8px;
 }
+
 .desc--big {
 	font-weight: 500;
 	font-size: 20px;

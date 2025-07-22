@@ -512,7 +512,6 @@ html, body {
 }
 
 .hero__title {
-  font-family: var(--font-accent);
   font-size: clamp(1.5rem, 0.955rem + 2.73vw, 3rem);
   font-weight: 600;
   margin-bottom: 15px;
@@ -561,6 +560,12 @@ html, body {
   font-size: 32px;
   font-weight: 500;
   font-family: var(--font-accent);
+  /* Mobile */
+}
+@media (max-width: 899px) {
+  .title-2 {
+    font-size: 24px;
+  }
 }
 
 .title-3 {
@@ -568,6 +573,12 @@ html, body {
   font-weight: 500;
   font-family: var(--font-accent);
   margin-bottom: 15px;
+  /* Mobile */
+}
+@media (max-width: 899px) {
+  .title-3 {
+    font-size: 16px;
+  }
 }
 
 .title-4 {
@@ -575,6 +586,12 @@ html, body {
   font-weight: 500;
   font-family: var(--font-titles);
   margin-bottom: 15px;
+  /* Mobile */
+}
+@media (max-width: 899px) {
+  .title-4 {
+    font-size: 16px;
+  }
 }
 
 .desc {
@@ -643,6 +660,10 @@ html, body {
 .time__item span {
   font-size: 18px;
   font-weight: 600;
+}
+
+.services {
+  padding: 15px 0;
 }
 
 .serveces__title {
@@ -717,6 +738,31 @@ html, body {
 
 .rule__link {
   margin-top: 15px;
+}
+
+.person {
+  padding: 20px 0;
+}
+.person img {
+  margin-bottom: 15px;
+}
+
+.person ul li {
+  list-style-type: disc;
+}
+
+.person__title {
+  margin-bottom: 15px;
+}
+
+.person__items {
+  padding-left: 10px;
+}
+.person__items li {
+  font-size: 14px;
+}
+.person__items .title-4 {
+  margin-top: 10px;
 }
 
 .btn {
