@@ -560,6 +560,7 @@ html, body {
   font-size: 32px;
   font-weight: 500;
   font-family: var(--font-accent);
+  margin-bottom: 10px;
   /* Mobile */
 }
 @media (max-width: 899px) {
