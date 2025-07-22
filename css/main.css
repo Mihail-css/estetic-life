@@ -144,6 +144,11 @@ pre.code {
   border-radius: 4px;
 }
 
+.link--color {
+  background-color: #eceaef;
+  text-align: center;
+}
+
 p + p {
   margin-top: 8px;
 }
@@ -725,6 +730,7 @@ html, body {
 
 .rule-wrapper {
   padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .rule {
