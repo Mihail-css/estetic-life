@@ -18,6 +18,8 @@
 	font-family: var(--font-accent);
 	margin-bottom: 15px;
 
+
+
 	/* Mobile */
 	@media (max-width: 899px) {
 		font-size: 16px;
@@ -31,6 +33,11 @@
 	font-family: var(--font-titles);
 	margin-bottom: 15px;
 
+	span {
+		font-size: 14px;
+		font-style:italic;
+	}
+
 	/* Mobile */
 	@media (max-width: 899px) {
 		font-size: 16px;
@@ -43,5 +50,5 @@
 
 .desc--big {
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 18px;
 }
