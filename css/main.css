@@ -243,7 +243,7 @@ html, body {
 
 .footer {
   padding: 40px 0;
-  background-color: #ddd2d2;
+  background-color: #eceaef;
 }
 
 .none {
@@ -773,6 +773,20 @@ html, body {
 }
 .person__items .title-4 {
   margin-top: 10px;
+}
+
+.file {
+  padding: 20px 0;
+}
+
+.file__row {
+  padding: 10px;
+  border: 1px solid rgb(209, 226, 241);
+  border-radius: 20px;
+}
+
+.file__item {
+  margin-bottom: 10px;
 }
 
 .btn {
