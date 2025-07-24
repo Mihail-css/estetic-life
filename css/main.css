@@ -152,6 +152,10 @@ p + p {
   margin-top: 8px;
 }
 
+.rule__link {
+  margin-top: 15px;
+}
+
 /* Контейнеры */
 .container {
   margin: 0 auto;
@@ -746,8 +750,8 @@ html, body {
   text-align: center;
 }
 
-.rule__link {
-  margin-top: 15px;
+.rule-wrapper + .rule-wrapper {
+  margin-top: 10px;
 }
 
 .person {
