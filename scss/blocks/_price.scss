@@ -1,0 +1,44 @@
+.price__wrapper {
+    display: grid;
+    gap: 15px;
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        .title-3 {
+            text-align: center;
+        }
+    }
+
+}
+
+.price__services {
+    padding: 10px;
+    border: 1px solid rgb(209, 226, 241);
+    border-radius: 20px;
+}
+
+
+
+
+
+.price__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        span {
+            text-align: end;
+        }
+    }
+}
+
+
+
+.price__prosthetics {
+    padding: 10px;
+    border: 1px solid rgb(209, 226, 241);
+    border-radius: 20px;
+}
