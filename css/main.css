@@ -794,6 +794,10 @@ html, body {
   margin-bottom: 10px;
 }
 
+.price {
+  margin-bottom: 15px;
+}
+
 .price__wrapper {
   display: grid;
   gap: 15px;
