@@ -9,7 +9,7 @@ const menuIcon = document.querySelector('.nav-icon');
 navBtn.onclick = function () {
 	nav.classList.toggle('mobile-nav--open');
 	menuIcon.classList.toggle('nav-icon--active');
-	// document.body.classList.toggle('no-scroll');
+	document.body.classList.toggle('no-scroll');
 };
 
 
