@@ -1,4 +1,5 @@
 .mobile-nav {
+	
 	position: fixed;
 	// top: 0;
 	top: -100%;
@@ -19,6 +20,7 @@
 
 .mobile-nav--open {
 	top: 0;
+	
 }
 
 .mobile-nav a {
@@ -33,6 +35,7 @@
 
 
 .mobile-nav__list {
+	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
