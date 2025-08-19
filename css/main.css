@@ -387,7 +387,7 @@ html, body {
 }
 
 /* Mobile */
-@media (max-width: 799px) {
+@media (max-width: 899px) {
   .mobile-nav-btn {
     display: block;
   }
@@ -480,7 +480,7 @@ html, body {
 }
 
 /* Mobile */
-@media (max-width: 799px) {
+@media (max-width: 899px) {
   .header__nav {
     display: none;
   }
