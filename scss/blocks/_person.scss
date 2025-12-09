@@ -1,32 +1,39 @@
 .person {
-    padding: 20px 0;
+  padding: 20px 0;
 
-    img {
-        margin-bottom: 15px;
-    }
+  img {
+    margin-bottom: 15px;
+  }
 }
 
+.person__items-wrapper ul li {
+  margin-bottom: 5px;
+}
 .person ul li {
-
-    list-style-type: disc;
-
+  list-style-type: disc;
 }
 
 .person__title {
-
-    margin-bottom: 15px;
-  
+  margin-bottom: 15px;
 }
 
-
-
 .person__items {
-    padding-left: 10px;
+  padding-left: 10px;
 
-    li {
-        font-size: 14px;
+  li {
+    font-size: 14px;
+  }
+  .title-4 {
+    margin-top: 10px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 599px) {
+    .person-img-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .title-4 {
-        margin-top: 10px;
-    }
+
 }

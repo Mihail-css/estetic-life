@@ -291,6 +291,11 @@ html, body {
   justify-content: center;
 }
 
+.margin {
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(209, 226, 241);
+}
+
 .header {
   background-color: #FFF;
   padding: 50px 0;
@@ -762,6 +767,10 @@ html, body {
   margin-bottom: 15px;
 }
 
+.person__items-wrapper ul li {
+  margin-bottom: 5px;
+}
+
 .person ul li {
   list-style-type: disc;
 }
@@ -780,6 +789,14 @@ html, body {
   margin-top: 10px;
 }
 
+/* Mobile */
+@media (max-width: 599px) {
+  .person-img-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .file {
   padding: 20px 0;
 }
