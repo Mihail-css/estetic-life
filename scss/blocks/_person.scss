@@ -3,6 +3,7 @@
 
   img {
     margin-bottom: 15px;
+   
   }
 }
 
@@ -28,12 +29,13 @@
   }
 }
 
+
+
 /* Mobile */
 @media (max-width: 599px) {
-    .person-img-row {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
+  .person-img-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
